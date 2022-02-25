@@ -1,0 +1,122 @@
+.lbl-jobtype {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.kak {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.reka {
+    color: #484343;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.body {
+    color: #f8f8f8;
+}
+.gora {
+    text-align: left;
+    font-weight: 300;
+    font-size: 19px;
+}
+.line {
+    border-bottom: 1px solid #808080;
+   }
+        .lbl-jobtype {
+  border: 1px solid black;
+}
+
+input[name='jobtype'] {
+  display: none;
+}
+
+.text-for-jobtype {
+  display: none;
+}
+.kak {
+  display: none;
+}
+.reka {
+  display: none;
+}
+  .gora {
+  display: none;
+}      
+#jt-webapp:checked~#t-webapp {
+  display: block;
+}
+    #jt-pop:checked~#t-pop {
+  display: block;
+}   
+        
+#jt-beb:checked~#t-beb {
+  display: block;
+}
+ #jt-radost:checked~#t-radost {
+  display: block;
+}       
+    #jt-repa:checked~#t-repa {
+  display: block;
+}     
+ #jt-tir:checked~#t-tir {
+  display: block;
+}       
+#jt-mobile:checked~#t-mobile {
+  display: block;
+}
+
+#jt-branding:checked~#t-branding {
+  display: block;
+}
+    * {
+   box-sizing: border-box;
+}
+.product-item {
+   width: 300px;
+   text-align: center;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+   background: white;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+}
+.product-item:hover {
+   border-bottom: 2px solid #fc5a5a;
+}
+
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+.price {
+   font-size: 16px;
+   color: #fc5a5a;
+   display: block;
+   margin-bottom: 12px;
+}
+.button {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: #cccccc;
+   color: white;
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+.product-item:hover .button {
+   background: #fc5a5a;
+}
